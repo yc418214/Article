@@ -92,14 +92,14 @@
 
 &emsp;接下来简单介绍一下在绘制过程中用到的几个类:
 
-###### AVAssetWriter
-&emsp;`AVAssetWriter`用来把媒体数据写进一个新的文件，在初始化的时候指定文件导出路径和文件格式，这东西不能复用，只能写一个文件，所以就不用放到property了。
+#### AVAssetWriter
+`AVAssetWriter`用来把媒体数据写进一个新的文件，在初始化的时候指定文件导出路径和文件格式，这东西不能复用，只能写一个文件，所以就不用放到property了。
 
-###### AVAssetWriterInput
-&emsp;`AVAssetWriter`负责输出数据，`AVAssetWriterInput`则负责接收数据。
+#### AVAssetWriterInput
+`AVAssetWriter`负责输出数据，`AVAssetWriterInput`则负责接收数据。
 
-###### AVAssetWriterInputPixelBufferAdaptor
-&emsp;图片数据会被保存在Core Video框架的`CVPixelBufferRef`（下一篇讲Core Video再介绍）类里，而`AVAssetWriterInputPixelBufferAdaptor`负责拼接`CVPixelBufferRef`数据，并且持有一个回收池，负责回收`CVPixelBufferRef`。
+#### AVAssetWriterInputPixelBufferAdaptor
+图片数据会被保存在Core Video框架的`CVPixelBufferRef`（下一篇讲Core Video再介绍）类里，而`AVAssetWriterInputPixelBufferAdaptor`负责拼接`CVPixelBufferRef`数据，并且持有一个回收池，负责回收`CVPixelBufferRef`。
 
 <p>
 
