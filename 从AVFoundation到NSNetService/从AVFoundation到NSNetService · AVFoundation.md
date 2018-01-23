@@ -4,7 +4,7 @@
 
 <p>
 
-&emsp;接上一篇[从AVFoundation到NSNetService · 开篇](http://www.jianshu.com/p/51536a0df6cf)，接下来介绍YCMakeVideoManager的具体实现。YCMakeVideoManager用到了AVFoundation和Core Video两个框架，这一篇先写AVFoundation好了。
+&emsp;接上一篇[从AVFoundation到NSNetService · 开篇](https://github.com/yc418214/Article/blob/master/%E4%BB%8EAVFoundation%E5%88%B0NSNetService/%E4%BB%8EAVFoundation%E5%88%B0NSNetService%20%C2%B7%20%E5%BC%80%E7%AF%87.md)，接下来介绍YCMakeVideoManager的具体实现。YCMakeVideoManager用到了AVFoundation和Core Video两个框架，这一篇先写AVFoundation好了。
 
 <p>
 
