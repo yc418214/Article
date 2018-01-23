@@ -2,7 +2,7 @@
 
 ---
 
-&emsp;[接上一篇](http://www.jianshu.com/p/444b0a8f5fe3)。
+&emsp;[接上一篇](https://github.com/yc418214/Article/blob/master/%E4%BB%8E0%E5%88%B01%E9%80%A0%E4%B8%80%E4%B8%AAModel%EF%BC%88%E4%BA%8C%EF%BC%89.md)。
 
 <p>
 
