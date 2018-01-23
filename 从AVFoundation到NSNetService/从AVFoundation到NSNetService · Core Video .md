@@ -74,11 +74,11 @@
 
 **接着是把UIImage数据保存到CVPixelBufferRef里，有以下几个步骤：**
 
-0. 创建CVPixelBufferRef，它会占用一个内存块
-1. 在对CVPixelBufferRef的内存块写入数据前，要先锁住内存块
-2. 获取CVPixelBufferRef内存块的基地址
-3. 把内存块的基地址作为参数，创建CGContextRef（位图上下文），这样当图片绘制在CGContextRef后，位图数据就保存在CVPixelBufferRef的内存块中了
-4. 最后释放CGContextRef，并解锁CVPixelBufferRef的内存块
+0. 创建`CVPixelBufferRef`，它会占用一个内存块
+1. 在对`CVPixelBufferRef`的内存块写入数据前，要先锁住内存块
+2. 获取`CVPixelBufferRef`内存块的基地址
+3. 把内存块的基地址作为参数，创建`CGContextRef`（位图上下文），这样当图片绘制在`CGContextRef`后，位图数据就保存在`CVPixelBufferRef`的内存块中了
+4. 最后释放`CGContextRef`，并解锁`CVPixelBufferRef`的内存块
 
 ````
 
