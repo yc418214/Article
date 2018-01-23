@@ -40,7 +40,7 @@ static BOOL YCValidateAndSetValue(id object, NSString *key, id value) {
 
 <p>
 
-###Key-Value Validation（KVV）
+### Key-Value Validation（KVV）
 
 &emsp;KVV也是KVC的一部分，是指在赋值之前对值的自定义验证过程。举个例子，如果model有个`NSDate *timestamp`的属性，而服务器返回的数据是unix时间戳，如1485057199，则在赋值之前需要数据转换。KVC为KVV提供了[validateValue:forKey:error:](https://developer.apple.com/reference/objectivec/nsobject/1416754-validatevalue?language=objc)方法，[这里](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/KeyValueCoding/Validation.html#//apple_ref/doc/uid/20002173-CJBDBHCB)有更详细的介绍。
 
