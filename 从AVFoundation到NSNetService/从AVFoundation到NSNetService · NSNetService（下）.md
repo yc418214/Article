@@ -4,7 +4,7 @@
 
 <p>
 
-&emsp;[上一篇](http://www.jianshu.com/p/2729aeb78b24)完成了`Socket`在iOS的发送端， 这一篇介绍`Socket`在Mac OS X的接收端。
+&emsp;[上一篇](https://github.com/yc418214/Article/blob/master/%E4%BB%8EAVFoundation%E5%88%B0NSNetService/%E4%BB%8EAVFoundation%E5%88%B0NSNetService%20%C2%B7%20NSNetService%EF%BC%88%E4%B8%8A%EF%BC%89.md)完成了`Socket`在iOS的发送端， 这一篇介绍`Socket`在Mac OS X的接收端。
 
 <p>
 
@@ -39,7 +39,7 @@
 
 ````
 
-**跟发送端一样，接收端也是NSNetService+GCDAsyncSocket，并且**接收端在和一个新的`Socket`建立连接后，并不会持有这个`Socket`，如果要保持连接则要把`Socket`保存起来**，所以m文件会有这些属性：**
+跟发送端一样，接收端也是NSNetService+GCDAsyncSocket，并且**接收端在和一个新的`Socket`建立连接后，并不会持有这个`Socket`，如果要保持连接则要把`Socket`保存起来**，所以m文件会有这些属性：
 
 ````
 @interface YCReceiverSocketManager ()
