@@ -1,4 +1,4 @@
-#从0到1造一个Model（三）
+# 从0到1造一个Model（三）
 
 ---
 
@@ -10,7 +10,7 @@
 
 <p>
 
-###NSCoding
+### NSCoding
 
 &emsp;为了让model支持本地持久化，我们实现NSCoding协议来序列化和反序列化model。我们在YCModelProtocol定义一个方法，**子类实现以返回需要进行编解码的属性数组**：
 
@@ -99,7 +99,7 @@
 
 ````
 
-###Description
+### Description
 
 &emsp;同样在YCBaseModel定义一个方法，由子类决定用于NSLog的属性:
 
