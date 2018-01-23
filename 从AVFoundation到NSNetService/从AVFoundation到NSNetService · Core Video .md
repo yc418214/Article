@@ -7,7 +7,7 @@
 &emsp;附上之前的链接：
 
 - [从AVFoundation到NSNetService · 开篇
-](http://www.jianshu.com/p/51536a0df6cf)
+](https://github.com/yc418214/Article/blob/master/%E4%BB%8EAVFoundation%E5%88%B0NSNetService/%E4%BB%8EAVFoundation%E5%88%B0NSNetService%20%C2%B7%20%E5%BC%80%E7%AF%87.md)
 - [从AVFoundation到NSNetService · AVFoundation](http://www.jianshu.com/p/c19af278b583)
 
 <p>
