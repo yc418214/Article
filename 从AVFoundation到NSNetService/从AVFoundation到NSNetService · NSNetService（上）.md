@@ -11,9 +11,9 @@
 &emsp;附上之前的链接：
 
 - [从AVFoundation到NSNetService · 开篇
-](http://www.jianshu.com/p/51536a0df6cf)
-- [从AVFoundation到NSNetService · AVFoundation](http://www.jianshu.com/p/c19af278b583)
-- [从AVFoundation到NSNetService · Core Video](http://www.jianshu.com/p/998719aee8d9)
+](https://github.com/yc418214/Article/blob/master/%E4%BB%8EAVFoundation%E5%88%B0NSNetService/%E4%BB%8EAVFoundation%E5%88%B0NSNetService%20%C2%B7%20%E5%BC%80%E7%AF%87.md)
+- [从AVFoundation到NSNetService · AVFoundation](https://github.com/yc418214/Article/blob/master/%E4%BB%8EAVFoundation%E5%88%B0NSNetService/%E4%BB%8EAVFoundation%E5%88%B0NSNetService%20%C2%B7%20AVFoundation.md)
+- [从AVFoundation到NSNetService · Core Video](https://github.com/yc418214/Article/blob/master/%E4%BB%8EAVFoundation%E5%88%B0NSNetService/%E4%BB%8EAVFoundation%E5%88%B0NSNetService%20%C2%B7%20Core%20Video%20.md)
 
 
 &emsp;我当时是用iPhone 5c做测试的，不仅内存有限，处理速度也不够满意，而OS X和iOS共用很多框架，除了界面用的框架有很大不一样，其他框架像AVFoundation、Core Video等，OS X也有，那能不能用MacBook来做这件事呢？
