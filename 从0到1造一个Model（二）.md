@@ -1,8 +1,8 @@
-#从0到1造一个Model（二）
+# 从0到1造一个Model（二）
 
 ---
 
-&emsp;[接上一篇](http://www.jianshu.com/p/568725873f8f)。
+&emsp;[接上一篇](https://github.com/yc418214/Article/blob/master/%E4%BB%8E0%E5%88%B01%E9%80%A0%E4%B8%80%E4%B8%AAModel%EF%BC%88%E4%B8%80%EF%BC%89.md)。
 
 <p>
 
