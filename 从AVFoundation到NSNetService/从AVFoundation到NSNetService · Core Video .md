@@ -8,7 +8,7 @@
 
 - [从AVFoundation到NSNetService · 开篇
 ](https://github.com/yc418214/Article/blob/master/%E4%BB%8EAVFoundation%E5%88%B0NSNetService/%E4%BB%8EAVFoundation%E5%88%B0NSNetService%20%C2%B7%20%E5%BC%80%E7%AF%87.md)
-- [从AVFoundation到NSNetService · AVFoundation](http://www.jianshu.com/p/c19af278b583)
+- [从AVFoundation到NSNetService · AVFoundation](https://github.com/yc418214/Article/blob/master/%E4%BB%8EAVFoundation%E5%88%B0NSNetService/%E4%BB%8EAVFoundation%E5%88%B0NSNetService%20%C2%B7%20AVFoundation.md)
 
 <p>
 
