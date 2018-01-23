@@ -172,10 +172,13 @@ typedef void(^YCAddAudioCompletionBlock)(NSString *videoFilePath);
 
 ###### AVMutableComposition
 &emsp;`AVMutableComposition`可以把多个媒体文件（音频、视频）拼接到一起，说人话就是视频剪辑和添加音频，音频剪辑等。它就像一个容器，存放视频轨道和音轨。
+
 ###### AVAssetTrack
 &emsp;`AVAssetTrack`把媒体文件封装成轨道，轨道可以被剪辑、拼接等。
+
 ###### AVMutableCompositionTrack
 &emsp;`AVMutableCompositionTrack`可以操作`AVAssetTrack`，比如截取某个时间段的`AVAssetTrack`，也可以拼接多个`AVAssetTrack`。前面说的`AVMutableComposition`就是`AVMutableCompositionTrack`的容器。
+
 ###### AVAssetExportSession
 &emsp;`AVAssetExportSession`负责导出文件，可以指定导出的质量和文件类型，因此也可以用于视频压缩。
 
