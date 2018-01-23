@@ -170,7 +170,8 @@ static int i = 0;
 
 ````
 
-**一次简单model的封装。**
+**一次简单model的封装。源码见[这里](https://github.com/yc418214/YCModel)**
+
 
 
 
